@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Math4Kids Gizlilik Politikası</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #eaf6ff;
+      --card: #ffffff;
+      --text: #2d2a4a;
+      --muted: #5f5c7d;
+      --accent: #c2410c;
+      --border: #cfe6f7;
+      --hero-top: #7fd3ff;
+      --hero-bottom: #fff4c2;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #14161f;
+        --card: #1f2230;
+        --text: #eceaf6;
+        --muted: #b4b1c9;
+        --accent: #ffa56e;
+        --border: #33374a;
+        --hero-top: #1d4a63;
+        --hero-bottom: #1f2230;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+    }
+    header { background: linear-gradient(var(--hero-top), var(--hero-bottom)); padding: 20px 16px 28px; }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    .top { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 24px; }
+    .brand { font-size: 1.25rem; font-weight: 800; }
+    .lang { display: inline-flex; gap: 4px; background: var(--card); border: 1px solid var(--border); border-radius: 999px; padding: 4px; }
+    .lang button {
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      font: inherit;
+      font-size: 0.9rem;
+      font-weight: 600;
+      min-height: 36px;
+      padding: 4px 16px;
+      border-radius: 999px;
+      cursor: pointer;
+    }
+    .lang button[aria-pressed="true"] { background: var(--accent); color: var(--card); }
+    .lang button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 4px; }
+    .updated { margin: 0; font-size: 0.95rem; }
+    main { padding: 24px 16px 48px; }
+    .summary { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 20px 24px; }
+    .summary h2 { margin-top: 0; }
+    .summary ul { margin-bottom: 0; }
+    h2 { font-size: 1.2rem; line-height: 1.3; margin: 32px 0 8px; color: var(--accent); }
+    p { margin: 0 0 12px; }
+    ul { padding-left: 20px; margin: 0 0 12px; }
+    li { margin-bottom: 6px; }
+    a { color: var(--accent); }
+    footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding: 0 16px 32px; }
+    html:not([lang="tr"]) [data-lang="tr"], html:not([lang="en"]) [data-lang="en"] { display: none !important; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="top">
+        <div class="brand">Math4Kids</div>
+        <div class="lang" role="group" aria-label="Dil / Language">
+          <button type="button" data-set-lang="tr" aria-pressed="true">Türkçe</button>
+          <button type="button" data-set-lang="en" aria-pressed="false">English</button>
+        </div>
+      </div>
+      <h1><span data-lang="tr">Gizlilik Politikası</span><span data-lang="en">Privacy Policy</span></h1>
+      <p class="updated"><span data-lang="tr">Son güncelleme: 2 Kasım 2026</span><span data-lang="en">Last updated: November 2, 2026</span></p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- ===================== TÜRKÇE ===================== -->
+    <div data-lang="tr">
+      <p>Bu politika, elfdev tarafından yayımlanan <strong>Math4Kids</strong> (<code>com.elfdev.math4kids</code>) uygulamasında hangi verilerin nasıl işlendiğini açıklar. Uygulama çocuklar için tasarlanmıştır; bu metin ebeveynler ve vasiler için yazılmıştır.</p>
+
+      <section class="summary">
+        <h2>Kısaca</h2>
+        <ul>
+          <li>Hesap açılmaz; e-posta, telefon numarası, konum, fotoğraf veya ses istenmez.</li>
+          <li>Bizim bir sunucumuz yoktur; uygulama verileri bize gönderilmez.</li>
+          <li>Reklamlar çocuklara yönelik olarak işaretlenir: kişiselleştirilmez, reklam kimliği kullanılmaz.</li>
+          <li>Uygulama içi satın alma bir yetişkin sorusunun ardından Google Play üzerinden yapılır.</li>
+        </ul>
+      </section>
+
+      <h2>Cihazda saklanan veriler</h2>
+      <p>Girilen kullanıcı adları, yıldızlar, çalışma süreleri, konu başarıları, günlük görevler, ses ve dil tercihleri yalnızca cihazda saklanır. Kullanıcı adı olarak takma ad kullanmanızı öneririz.</p>
+      <p>Cihazda Android yedekleme açıksa bu veriler, Google hesabınızdaki yedeğe veya yeni telefona aktarıma dahil edilebilir. Bu yedeği Google yönetir ve bizim erişimimiz yoktur. Reklam altyapısının kendi verileri bu yedeğe dahil edilmez.</p>
+
+      <h2>Reklamlar</h2>
+      <p>Uygulamada Google AdMob ile banner ve tam ekran video reklamlar gösterilir; soru çözülürken reklam gösterilmez. Tüm reklam istekleri çocuk kategorisinde ve genel izleyici (G) içerik seviyesinde işaretlenir. Reklam kimliği izni uygulamadan kaldırılmıştır; ilgi alanına dayalı reklam ve yeniden pazarlama kullanılmaz.</p>
+      <p>Reklamların gösterilmesi, sınırlandırılması ve kötüye kullanımın önlenmesi için Google; IP adresi, cihaz ve işletim sistemi bilgileri ile reklam etkileşimleri gibi verileri işleyebilir. Ayrıntılar için <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google'ın gizlilik politikası</a> ve <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google'ın reklam teknolojileri</a> sayfalarına bakabilirsiniz.</p>
+
+      <h2>Uygulama içi satın alma</h2>
+      <p>"Reklamları Kaldır" ödemesi Google Play tarafından işlenir. Kart veya ödeme bilgilerinize erişimimiz yoktur. Satın alma ekranı bir yetişkin sorusunun arkasındadır; ek koruma için Google Play'de satın alma onayı veya Family Link kullanmanızı öneririz.</p>
+
+      <h2>Çocukların gizliliği</h2>
+      <p>Çocuklardan bilerek kişisel bilgi toplamıyoruz. Uygulamada sohbet veya kullanıcılar arası paylaşım yoktur. Reklamlara dokunmak, reklamveren sayfasını veya Google Play'i açabilir.</p>
+
+      <h2>Verilerin silinmesi ve haklarınız</h2>
+      <p>Bir kullanıcıyı silmek o kullanıcının verilerini siler. Uygulama verilerini temizlemek veya uygulamayı kaldırmak tüm verileri siler. Reklamları Kaldır satın alımı Google Play hesabınız üzerinden geri yüklenebilir.</p>
+      <p>Sorularınız ve veri talepleriniz için bize yazabilirsiniz: <a href="mailto:elfdev.tr@gmail.com">elfdev.tr@gmail.com</a></p>
+
+      <h2>Değişiklikler</h2>
+      <p>Bu politika değişirse güncel hali ve tarihi bu sayfada yayımlanır.</p>
+    </div>
+
+    <!-- ===================== ENGLISH ===================== -->
+    <div data-lang="en">
+      <p>This policy explains how data is handled in <strong>Math4Kids</strong> (<code>com.elfdev.math4kids</code>), published by elfdev. The app is designed for children; this policy is written for parents and guardians.</p>
+
+      <section class="summary">
+        <h2>In short</h2>
+        <ul>
+          <li>There are no accounts. We do not ask for an email, phone number, location, photos or audio.</li>
+          <li>We have no server, and app data is not sent to us.</li>
+          <li>Ads are tagged as child-directed: they are not personalized and do not use the advertising ID.</li>
+          <li>The in-app purchase goes through Google Play, after a grown-up question.</li>
+        </ul>
+      </section>
+
+      <h2>Data kept on the device</h2>
+      <p>The player names you enter, stars, practice times, topic results, daily tasks, and sound and language choices are kept only on the device. We suggest using a nickname as the player name.</p>
+      <p>If Android backup is on, this data may be included in the backup in your Google account or in a transfer to a new phone. Google manages this backup and we cannot access it. The ad system's own data is excluded from it.</p>
+
+      <h2>Ads</h2>
+      <p>The app shows banner and full-screen video ads through Google AdMob; no ads appear while a question is being answered. All ad requests are tagged for child treatment and the general-audience (G) content rating. The advertising ID permission is removed from the app; interest-based advertising and remarketing are not used.</p>
+      <p>To show and limit ads and to prevent abuse, Google may process data such as IP address, device and operating system information, and ad interactions. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy</a> and <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">how Google uses advertising technologies</a>.</p>
+
+      <h2>In-app purchase</h2>
+      <p>The "Remove Ads" payment is processed by Google Play. We have no access to card or payment details. The purchase screen is behind a grown-up question; for extra protection we recommend purchase approvals in Google Play or Family Link.</p>
+
+      <h2>Children's privacy</h2>
+      <p>We do not knowingly collect personal information from children. The app has no chat or sharing between users. Tapping an ad can open the advertiser's page or Google Play.</p>
+
+      <h2>Deleting data and your rights</h2>
+      <p>Deleting a player deletes that player's data. Clearing the app's data or uninstalling the app deletes all of it. A Remove Ads purchase can be restored through your Google Play account.</p>
+      <p>For questions and data requests, write to us: <a href="mailto:elfdev.tr@gmail.com">elfdev.tr@gmail.com</a></p>
+
+      <h2>Changes</h2>
+      <p>If this policy changes, the current version and its date are published on this page.</p>
+    </div>
+  </main>
+
+  <footer>© 2026 elfdev · Math4Kids</footer>
+
+  <script>
+    (function () {
+      var root = document.documentElement;
+      var buttons = document.querySelectorAll('[data-set-lang]');
+
+      function apply(lang) {
+        root.lang = lang;
+        document.title = lang === 'en' ? 'Math4Kids Privacy Policy' : 'Math4Kids Gizlilik Politikası';
+        buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.setLang === lang)); });
+      }
+
+      // Öncelik: ?lang= bağlantısı, sonra kullanıcının önceki seçimi, sonra tarayıcı dili
+      var fromUrl = new URLSearchParams(location.search).get('lang');
+      var saved = null;
+      try { saved = localStorage.getItem('math4kids-privacy-lang'); } catch (e) {}
+      var browser = (navigator.language || '').toLowerCase().indexOf('tr') === 0 ? 'tr' : 'en';
+      var initial = [fromUrl, saved, browser].filter(function (l) { return l === 'tr' || l === 'en'; })[0];
+      apply(initial);
+
+      buttons.forEach(function (b) {
+        b.addEventListener('click', function () {
+          apply(b.dataset.setLang);
+          try { localStorage.setItem('math4kids-privacy-lang', b.dataset.setLang); } catch (e) {}
+          var url = new URL(location.href);
+          url.searchParams.set('lang', b.dataset.setLang);
+          history.replaceState(null, '', url);
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
